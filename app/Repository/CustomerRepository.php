@@ -8,7 +8,7 @@ use App\Customer;
 class CustomerRepository implements CustomerRepositoryInterface
 {
     /**
-     * Get all locations.
+     * Get all Customer.
      *
      * @param int $details
      * @return object 

@@ -8,7 +8,7 @@ use App\Trip;
 class TripRepository implements TripRepositoryInterface
 {
     /**
-     * Get all locations.
+     * Get all Trip.
      *
      * @param int $details
      * @return object 
@@ -30,7 +30,7 @@ class TripRepository implements TripRepositoryInterface
     }
 
     /**
-     * Store customer details.
+     * Store trip details.
      *
      * @param array $details
      * @return object 
