@@ -18,28 +18,6 @@ class CustomerRepository implements CustomerRepositoryInterface
         return Customer::get();
     }
 
-    // /**
-    //  * Fetch customer base on email address.
-    //  *
-    //  * @param string $email
-    //  * @return object
-    //  */
-    // public function fetchUserByEmail($email)
-    // {
-    //     return Customer::where('email',$email)->first();
-    // }
-
-    // /**
-    //  * Store customer details.
-    //  *
-    //  * @param array $details
-    //  * @return object 
-    //  */
-    // public function create(array $details)
-    // {
-    //     return Customer::create($details);
-    // }
-
 }
     
 ?>
